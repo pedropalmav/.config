@@ -5,3 +5,9 @@ En tercer lugar, debemos crear un link simbolico del archivo .vimrc en el direct
 ```console
 ln -s .config/.vimrc .vimrc
 ```
+# Screenfetch
+Para que aparezca el logo del OS e información del computador se instala screenfetch. Para ubuntu es el siguiente comando
+```console
+sudo apt-get install screenfetch
+```
+Luego para que se ejecute cada vez que abramos la terminal se agrega una nueva línea en .bashrc en el direcotrio ~ con el nombre del comando a ejecutar (screenfetch)
