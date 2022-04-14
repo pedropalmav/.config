@@ -15,7 +15,7 @@ call plug#begin('~/.vim/plugged')
 
 "Themes
 Plug 'morhetz/gruvbox'
-"Plug 'shinchu/lighline-gruvbox.vim'
+Plug 'shinchu/lightline-gruvbox.vim'
 
 "IDE
 Plug 'easymotion/vim-easymotion'
@@ -31,8 +31,8 @@ Plug 'maximbaz/lightline-ale'
 
 "NerdTree
 Plug 'scrooloose/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin' 
-"Plug 'ryanoasis/vim-devicons' "Hay que instalar una fuente de letra, revisar si conviene 
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ryanoasis/vim-devicons' "Hay que instalar una fuente de letra, revisar si conviene 
 
 " GIT 
 Plug 'airblade/vim-gitgutter'
@@ -54,6 +54,8 @@ call plug#end()
 " Otras configuraciones
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
+let g:lightline = {}
+let g:lightline.colorscheme = 'gruvbox'
 let NERDTreeQuitOnOpen = 1
 let mapleader=" "
 
