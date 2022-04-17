@@ -1,22 +1,22 @@
-set number
-set mouse=a
-set numberwidth=1
-set clipboard=unnamed
-syntax enable
-set showcmd
-set ruler
+set number 						"Enable line numbers
+set mouse=a 					"Enable mouse
+set numberwidth=1 
+set clipboard=unnamed "Permite utilizar el clipboard general del computador
+syntax enable 				"Permite resaltar las palabras
+set showcmd 					"Mustra comandos utilizados y otas funcionalidades
+set ruler 						"Show cursor position
 set encoding=utf-8
-set showmatch
-set sw=4
-set laststatus=2
-set noshowmode
+set showmatch 				"Show matching parenthesis
+"set ai 								"Enable autoindentation
+set sw=4 							"Autoindentación como 4 espacios
+set laststatus=2 			"Enable status bar (always on display)
+set noshowmode				"Hace que no se vea el modo en la status bar (Como lo hace vim por defecto)
 
 call plug#begin('~/.vim/plugged')
 
 "Themes
-Plug 'morhetz/gruvbox'
-Plug 'shinchu/lightline-gruvbox.vim'
-
+Plug 'morhetz/gruvbox'									"Main theme
+Plug 'shinchu/lightline-gruvbox.vim' 		"Status bar theme
 "IDE
 Plug 'easymotion/vim-easymotion'
 Plug 'junegunn/fzf'
@@ -40,9 +40,9 @@ Plug 'airblade/vim-gitgutter'
 " t-mux
 Plug 'christoomey/vim-tmux-navigator'
 
-"Plug 'neoclide/coc.nvim', {'branch':'release'}
+Plug 'neoclide/coc.nvim', {'branch':'release'}  "Autocompletion 
 
-" Typing
+"Typing
 Plug 'scrooloose/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
