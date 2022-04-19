@@ -11,6 +11,8 @@ set showmatch 				"Show matching parenthesis
 set sw=4 							"Autoindentación como 4 espacios
 set laststatus=2 			"Enable status bar (always on display)
 set noshowmode				"Hace que no se vea el modo en la status bar (Como lo hace vim por defecto)
+set cursorline
+":highlight Cursorline cterm=bold ctermbg=black
 
 call plug#begin('~/.vim/plugged')
 
