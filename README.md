@@ -8,8 +8,8 @@ ln -s .config/.vimrc .vimrc
 En tercer lugar, hay que instalar los plugins de Vim, esto sea hace ejecutando :PlugInstall desde nvim una vez que se escriben todos los nuevos plugins y se cierra el archivo de .vimrc. En particular, el plugin vim-devicons necesita de que la terminal utilizada tenga como fuente principal una Nerd Font. En el caso de Windows se descarga la fuente, se extrae todo el .zip, se seleccionan todos los archivos y con click derecho se ejecuta instalar para todos los usuarios. Finalmente, se elige esta fuente desde la configuración de la terminal.
 
 # Screenfetch
-Para que aparezca el logo del OS e información del computador se instala screenfetch. Para ubuntu es el siguiente comando
+Para que aparezca el logo del OS e información del computador se instala neofetch. Para ubuntu es el siguiente comando
 ```console
-sudo apt-get install screenfetch
+sudo apt-get install neofetch
 ```
-Luego para que se ejecute cada vez que abramos la terminal se agrega una nueva línea en .bashrc en el direcotrio ~ con el nombre del comando a ejecutar (screenfetch)
+Luego para que se ejecute cada vez que abramos la terminal se agrega una nueva línea en .bashrc en el direcotrio ~ con el nombre del comando a ejecutar (neofetch)
