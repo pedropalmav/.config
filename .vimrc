@@ -19,6 +19,9 @@ call plug#begin('~/.vim/plugged')
 "Themes
 Plug 'morhetz/gruvbox'									"Main theme
 Plug 'shinchu/lightline-gruvbox.vim' 		"Status bar theme
+Plug 'catppuccin/nvim', {'as': 'catppuccin'} "Main Theme
+
+
 "IDE
 Plug 'easymotion/vim-easymotion'
 Plug 'junegunn/fzf'
@@ -54,10 +57,12 @@ call plug#end()
 
 
 " Otras configuraciones
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme catppuccin
 let g:gruvbox_contrast_dark = "hard"
 let g:lightline = {}
-let g:lightline.colorscheme = 'gruvbox'
+"let g:lightline.colorscheme = 'gruvbox'
+let g:lightline = {'colorscheme': 'catppuccin'}
 let NERDTreeQuitOnOpen = 1
 let mapleader=" "
 
