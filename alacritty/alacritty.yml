@@ -28,8 +28,8 @@ window:
   dimensions:
     columns: 100
     lines: 85
-    opacity: 0.6
-
+    
+  opacity: 0.8
 # Window padding (changes require restart)
   #
   # Blank space added around the window in pixels. This padding is not scaled by
