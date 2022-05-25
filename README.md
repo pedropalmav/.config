@@ -33,5 +33,11 @@ sudo cp -r /mnt/win-efi/EFI/Microsoft /boot/efi/EFI
 
 Finalmente, se agrega tiempo para que se pueda elegir que partición se quiere bootear modificando el archivo ```/boot/efi/loader/loader.conf``` y agregando una línea que diga timeout 10.
 
-## Trasnparencia
+## Transparencia
 Para que las ventanas de GNOME se vean transparentes es recomendable utilizar [mutter-rounded](https://github.com/yilozt/mutter-rounded-setting) para realizarlo.
+
+## Errores Dual boot con Windows
+Algunas veces al reiniciar desde windows a pop_os suele suceder que para los dos sistemas se desconfigura la zona horaria, por lo que para solucionarlo se debe ejecutar el siguiente comando desde la terminal de pop_os:
+```console
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
