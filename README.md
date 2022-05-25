@@ -41,3 +41,4 @@ Algunas veces al reiniciar desde windows a pop_os suele suceder que para los dos
 ```console
 timedatectl set-local-rtc 1 --adjust-system-clock
 ```
+Otro error común es que reiniciar desde windows a pop_os produce de que no se puedan utilizar los altavoces intgrados, debido al uso compartido de la tarjeta de audio realtek, por lo tanto, es recomendable apagar desde windows y cambiarse a pop_os y no reiniciar en windows para entrar en pop_os.
