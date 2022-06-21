@@ -1,0 +1,6 @@
+2022/06/20-23:50:13.164 a1fa Reusing MANIFEST /home/pedropalmav/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/06/20-23:50:13.166 a1fa Recovering log #3
+2022/06/20-23:50:13.166 a1fa Reusing old log /home/pedropalmav/.config/discord/Local Storage/leveldb/000003.log 
+2022/06/20-23:52:14.080 a1fa Level-0 table #5: started
+2022/06/20-23:52:14.094 a1fa Level-0 table #5: 460202 bytes OK
+2022/06/20-23:52:14.095 a1fa Delete type=0 #3
