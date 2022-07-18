@@ -5,3 +5,11 @@ gnome-initial-setup-done
 BetterDiscord\ Installer/
 monitors.xml
 monitors.xml~
+dconf/
+enchant/
+touchegg/
+.gsd-keyboard.settings-ported
+ibus/
+pulse/
+discord/
+spotify/
