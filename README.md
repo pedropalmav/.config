@@ -14,6 +14,11 @@ sudo apt-get install neofetch
 ```
 Luego para que se ejecute cada vez que abramos la terminal se agrega una nueva línea en .bashrc en el direcotrio ~ con el nombre del comando a ejecutar (neofetch)
 
+# Cava
+Esta es una aplicación para visualizar el sonido que se reproduce en el computador. Ver más en esta [página](https://github.com/karlstav/cava).
+
+# Notion 
+La aplicación no esta soportada para linux, por lo que es necesario instalar un port siguiendo los pasos en la [página](https://notion-enhancer.github.io/getting-started/installation/) oficial.
 # Pop_os!
 Si se quiere hacer un dualboot entre Pop_os! con Windows es necesario trabajar con systemd-boot, el cual trae por defecto Pop_os! (No trabajar con grub, ya que es más difícil con este os). Para ello hay que agregar el efi de Windows a systemd-boot de la siguiente manera. 
 

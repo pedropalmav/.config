@@ -27,6 +27,8 @@ Plug 'easymotion/vim-easymotion'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'yggdroot/indentline'
+Plug 'neoclide/coc.nvim', {'branch':'release'}  "Autocompletion 
+
 "Syntax
 Plug 'sheerun/vim-polyglot'
 
@@ -37,7 +39,7 @@ Plug 'maximbaz/lightline-ale'
 "NerdTree
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'ryanoasis/vim-devicons' "Hay que instalar una fuente de letra, revisar si conviene 
+Plug 'ryanoasis/vim-devicons' "Hay que instalar una nerdfont
 
 " GIT 
 Plug 'airblade/vim-gitgutter'
@@ -45,13 +47,14 @@ Plug 'airblade/vim-gitgutter'
 " t-mux
 Plug 'christoomey/vim-tmux-navigator'
 
-Plug 'neoclide/coc.nvim', {'branch':'release'}  "Autocompletion 
-
 "Typing
 Plug 'scrooloose/nerdcommenter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-surround'
+
+"Previews
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' } "Previsualizador de Markdown
 
 call plug#end()
 
