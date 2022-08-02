@@ -3,3 +3,4 @@ if status is-interactive
     neofetch
 end
 fish_add_path /home/pedropalmav/.spicetify
+starship init fish | source
