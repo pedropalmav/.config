@@ -60,12 +60,27 @@ call plug#end()
 
 
 " Otras configuraciones
+
+" Editor theme
+
 "colorscheme gruvbox
+
+let g:catppuccin_flavour = "macchiato" " latte, frappe, macchiato, mocha
+
+
+lua << EOF
+require("catppuccin").setup()
+EOF
+
 colorscheme catppuccin
+
+" lightline theme
+
 let g:gruvbox_contrast_dark = "hard"
 let g:lightline = {}
 "let g:lightline.colorscheme = 'gruvbox'
 let g:lightline = {'colorscheme': 'catppuccin'}
+
 let NERDTreeQuitOnOpen = 1
 let mapleader=" "
 
