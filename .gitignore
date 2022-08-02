@@ -1,15 +1,45 @@
 wslu/
-user-dirs.dirs
-user-dirs.locale
 gnome-initial-setup-done
-BetterDiscord\ Installer/
 monitors.xml
 monitors.xml~
-dconf/
-enchant/
+mimeapps.list
+pavucontrol.ini
 touchegg/
 .gsd-keyboard.settings-ported
 ibus/
 pulse/
+systemd/
+eog/
+evolution/
+
+# Privacy
+
+goa-1.0/
+user-dirs.dirs
+user-dirs.locale
+
+# Gnome apps
+
+nautilus/
+dconf/
+gedit/
+gnome-control-center/
+qalculate/
+evince/
+enchant/
+
+# Installed apps
+
 discord/
 spotify/
+BetterDiscord\ Installer/
+spicetify/
+notion-app-enhanced/
+Code/
+libreoffice/
+
+# Window Managers
+
+gtk-*/
+
+# System Config Files
