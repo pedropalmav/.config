@@ -452,7 +452,7 @@ color_schemes:
 
 
 
-colors: *macchiato
+colors: *mocha
 
 shell:
   program: /usr/bin/fish

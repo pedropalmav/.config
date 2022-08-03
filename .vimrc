@@ -65,7 +65,7 @@ call plug#end()
 
 "colorscheme gruvbox
 
-let g:catppuccin_flavour = "macchiato" " latte, frappe, macchiato, mocha
+let g:catppuccin_flavour =  "mocha" " latte, frappe, macchiato, mocha
 
 
 lua << EOF
@@ -76,7 +76,7 @@ colorscheme catppuccin
 
 " lightline theme
 
-let g:gruvbox_contrast_dark = "hard"
+"let g:gruvbox_contrast_dark = "hard"
 let g:lightline = {}
 "let g:lightline.colorscheme = 'gruvbox'
 let g:lightline = {'colorscheme': 'catppuccin'}
