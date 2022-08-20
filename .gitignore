@@ -36,6 +36,11 @@ BetterDiscord\ Installer/
 spicetify/
 notion-app-enhanced/
 Code/
+!Code/
+Code/*
+!Code/User/
+Code/User/*
+!Code/User/settings.json
 libreoffice/
 
 # Window Managers
