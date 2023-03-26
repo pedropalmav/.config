@@ -27,6 +27,10 @@ gnome-control-center/
 qalculate/
 evince/
 enchant/
+yelp/
+geary/
+ibus-*
+mozc/
 
 # Installed apps
 
@@ -42,6 +46,8 @@ Code/*
 Code/User/*
 !Code/User/settings.json
 libreoffice/
+JetBrains/
+burn-my-windows/
 
 # Window Managers
 
