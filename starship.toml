@@ -50,3 +50,4 @@ symbol = " "
 [ruby]
 format = "[$symbol($version)]($style)"
 detect_variables = []
+symbol = "󰴭 "
