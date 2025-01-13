@@ -48,6 +48,6 @@ format = "[$symbol($version )]($style)"
 symbol = " "
 
 [ruby]
-format = "[$symbol($version)]($style)"
+format = "[$symbol($version )]($style)"
 detect_variables = []
 symbol = "󰴭 "
